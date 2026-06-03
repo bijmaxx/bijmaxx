@@ -4,6 +4,26 @@ I build trading, data, and automation systems with an emphasis on reproducible r
 
 Recent work is concentrated in prediction markets and systematic trading: market ingestion, event matching, wallet intelligence, backtesting, and runtime infrastructure.
 
+## Trading Systems
+
+I built an internal futures trading workstation for managing multiple funded-style accounts from one operator surface. The system combined execution, copy trading, risk controls, account fan-out, strategy dispatch, live state monitoring, and research workflows.
+
+Key capabilities:
+
+- Managed 10 accounts simultaneously from a single execution and monitoring UI
+- Copy-traded orders across account groups with per-account position, balance, drawdown, and guardrail visibility
+- Ran hundreds of strategy variants across live and replay workflows
+- Backtested thousands of strategy/day/configuration combinations with sortable strategy comparison views
+- Supported real-time backtesting, live dispatch review, account health checks, kill switches, flatten/cancel controls, and operator explanations for each action
+
+![Trading fleet dashboard](./assets/trading-fleet-dashboard.png)
+
+![Strategy explorer](./assets/strategy-explorer.png)
+
+![Live execution dashboard](./assets/live-execution-dashboard.png)
+
+![Mobile control surface](./assets/mobile-control-surface.png)
+
 ## Portfolio
 
 - [Aikido Systematic Trading](https://github.com/bijmaxx/aikido-systematic-trading) - Rust-first research, simulation, runtime, and evidence platform for systematic trading.
