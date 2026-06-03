@@ -1,8 +1,10 @@
 # Bijan
 
-I build trading, data, and automation systems. Recent work focuses on prediction markets, systematic trading research, replayable data pipelines, and tools that make model or strategy behavior easier to inspect.
+I build trading, data, and automation systems with an emphasis on reproducible research, replayable pipelines, and inspectable strategy behavior.
 
-## Selected Work
+Recent work is concentrated in prediction markets and systematic trading: market ingestion, event matching, wallet intelligence, backtesting, and runtime infrastructure.
+
+## Portfolio
 
 - [Aikido Systematic Trading](https://github.com/bijmaxx/aikido-systematic-trading) - Rust-first research, simulation, runtime, and evidence platform for systematic trading.
 - [Polymarket Weather Research](https://github.com/bijmaxx/polymarket-weather-research) - Paper-trading research engine for weather markets with market ingestion, signal evaluation, and experiment tracking.
@@ -11,13 +13,13 @@ I build trading, data, and automation systems. Recent work focuses on prediction
 - [Polymarket Oracle Bot](https://github.com/bijmaxx/polymarket-oracle-bot) - Prototype for studying oracle-lag trading behavior in prediction markets.
 - [Vector Backtester](https://github.com/bijmaxx/vector-backtester) - ClickHouse-backed cryptocurrency strategy backtester using SQL-native vectorized execution.
 
-## Focus Areas
+## What I Work On
 
-- Trading research infrastructure: ingestion, replay, backtesting, and runtime design
-- Prediction-market analytics: wallet intelligence, event matching, oracle timing, and market behavior
-- Python and Rust systems for research workflows that need to be reproducible and inspectable
-- Automation products that combine browser extensions, data pipelines, and AI-assisted workflows
+- Trading research infrastructure: ingestion, replay, simulation, and backtesting
+- Prediction-market analytics: event matching, wallet intelligence, oracle timing, and market behavior
+- Production-minded research tools: CLIs, storage layers, evidence capture, and runtime design
+- Automation products: browser extensions, data workflows, and AI-assisted operator tooling
 
-## Technical Range
+## Stack
 
-Python, Rust, TypeScript, Go, Ruby, ClickHouse, SQLite, Postgres, React, Chrome extensions, CLI tools, data pipelines, and trading research infrastructure.
+Python, Rust, TypeScript, Go, Ruby, ClickHouse, SQLite, Postgres, React, Chrome extensions, CLI tools, and data pipelines.
