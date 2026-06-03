@@ -1,10 +1,15 @@
-# Bijan
+# Bijan Pourriahi
 
-I build trading, data, and automation systems with an emphasis on reproducible research, replayable pipelines, and inspectable strategy behavior.
+**Senior Backend / Platform Engineer**  
+Rust · Python · Rails · Kubernetes · Trading Infrastructure · Data Systems · Automation
 
-Recent work is concentrated in prediction markets and systematic trading: market ingestion, event matching, wallet intelligence, backtesting, and runtime infrastructure.
+I build backend and systems software for data-heavy, automation-heavy domains: trading infrastructure, market-data pipelines, simulation engines, research platforms, internal tools, and real-time execution systems.
 
-## Trading Systems
+My work focuses on systems that need to be reproducible, inspectable, replayable, and operationally useful: ingestion pipelines, strategy runtimes, backtesting engines, event matching, execution tooling, evidence capture, and infrastructure for turning raw data into decisions.
+
+Previously built automated trading infrastructure for a hedge fund, including large-scale strategy backtesting, analytics, automated strategy selection, dashboards, and cloud operations. Current work is focused on QuantBox: Rust/Python infrastructure for systematic trading research, market ingestion, simulation, prediction-market analytics, and runtime systems.
+
+## Trading Platform Work
 
 I built an internal futures trading workstation for managing multiple funded-style accounts from one operator surface. The system combined execution, copy trading, risk controls, account fan-out, strategy dispatch, live state monitoring, and research workflows.
 
@@ -24,22 +29,58 @@ Key capabilities:
 
 ![Mobile control surface](./assets/mobile-control-surface.png)
 
-## Portfolio
+## Featured Engineering Work
 
-- [Aikido Systematic Trading](https://github.com/bijmaxx/aikido-systematic-trading) - Rust-first research, simulation, runtime, and evidence platform for systematic trading.
-- [Polymarket Weather Research](https://github.com/bijmaxx/polymarket-weather-research) - Paper-trading research engine for weather markets with market ingestion, signal evaluation, and experiment tracking.
-- [Polymarket Trader Intelligence](https://github.com/bijmaxx/polymarket-trader-intelligence) - CLI for wallet alerts, replay, SQLite storage, and trader profile analysis.
-- [Matching System](https://github.com/bijmaxx/matching-system) - Explainable event matcher for cross-platform prediction market analysis.
-- [Polymarket Oracle Bot](https://github.com/bijmaxx/polymarket-oracle-bot) - Prototype for studying oracle-lag trading behavior in prediction markets.
-- [Vector Backtester](https://github.com/bijmaxx/vector-backtester) - ClickHouse-backed cryptocurrency strategy backtester using SQL-native vectorized execution.
+### [QuantBox / Aikido Systematic Trading](https://github.com/bijmaxx/aikido-systematic-trading)
 
-## What I Work On
+Rust-first research, simulation, runtime, and evidence platform for systematic trading.
 
-- Trading research infrastructure: ingestion, replay, simulation, and backtesting
-- Prediction-market analytics: event matching, wallet intelligence, oracle timing, and market behavior
-- Production-minded research tools: CLIs, storage layers, evidence capture, and runtime design
-- Automation products: browser extensions, data workflows, and AI-assisted operator tooling
+Focus areas:
+
+- strategy simulation and evaluation
+- reproducible research pipelines
+- runtime architecture
+- evidence capture
+- risk and drawdown logic
+- market-data infrastructure
+
+### [Vector Backtester](https://github.com/bijmaxx/vector-backtester)
+
+ClickHouse-backed cryptocurrency strategy backtester using SQL-native vectorized execution.
+
+### [Prediction Market Wallet Intelligence CLI](https://github.com/bijmaxx/polymarket-trader-intelligence)
+
+CLI toolkit for wallet alerts, replayable market analysis, SQLite storage, and trader profile intelligence.
+
+### [Matching System](https://github.com/bijmaxx/matching-system)
+
+Explainable event-matching system for cross-platform prediction-market analysis.
+
+### [Prediction Market Research Engine](https://github.com/bijmaxx/polymarket-weather-research)
+
+Paper-trading research engine for prediction markets, including ingestion, signal evaluation, and experiment tracking.
+
+### [Prediction Market Oracle Timing Research](https://github.com/bijmaxx/polymarket-oracle-bot)
+
+Prototype for studying oracle-lag timing, market behavior, and automated execution workflows.
+
+## Core Engineering Areas
+
+- Backend architecture
+- Rust/Python systems engineering
+- Trading infrastructure
+- Market-data ingestion and normalization
+- Simulation and backtesting engines
+- Data pipelines and replayable workflows
+- PostgreSQL, ClickHouse, SQLite
+- Kubernetes, Docker, Linux, AWS
+- CLI tools and internal platforms
+- Automation and AI-assisted workflows
 
 ## Stack
 
-Python, Rust, TypeScript, Go, Ruby, ClickHouse, SQLite, Postgres, React, Chrome extensions, CLI tools, and data pipelines.
+**Languages:** Rust, Python, Ruby, Go, TypeScript, SQL  
+**Backend:** Rails, FastAPI, APIs, WebSockets, background jobs, CLI systems  
+**Data:** PostgreSQL, ClickHouse, SQLite, ETL, event logs, market-data pipelines  
+**Infrastructure:** Kubernetes, Docker, AWS, Linux, Ansible, CI/CD, Grafana  
+**Domains:** trading systems, research infrastructure, automation, analytics
