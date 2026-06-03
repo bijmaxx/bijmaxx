@@ -1,6 +1,6 @@
-# Bijan Shirani
+# Bijan
 
-I build trading, data, and automation systems with a bias toward measurable behavior: backtests, replayable pipelines, explainable matching, and production-oriented runtime design.
+I build trading, data, and automation systems. Recent work focuses on prediction markets, systematic trading research, replayable data pipelines, and tools that make model or strategy behavior easier to inspect.
 
 ## Selected Work
 
@@ -13,10 +13,10 @@ I build trading, data, and automation systems with a bias toward measurable beha
 
 ## Focus Areas
 
-- Systems and data engineering for trading research
-- Python and Rust tooling for backtesting, replay, and live workflows
-- Prediction-market analytics, wallet intelligence, and event matching
-- Automation products that combine scraping, browser extensions, and AI workflows
+- Trading research infrastructure: ingestion, replay, backtesting, and runtime design
+- Prediction-market analytics: wallet intelligence, event matching, oracle timing, and market behavior
+- Python and Rust systems for research workflows that need to be reproducible and inspectable
+- Automation products that combine browser extensions, data pipelines, and AI-assisted workflows
 
 ## Technical Range
 
