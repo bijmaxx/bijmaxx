@@ -7,7 +7,7 @@ I build backend and systems software for data-heavy, automation-heavy domains: t
 
 My work focuses on systems that need to be reproducible, inspectable, replayable, and operationally useful: ingestion pipelines, strategy runtimes, backtesting engines, event matching, execution tooling, evidence capture, and infrastructure for turning raw data into decisions.
 
-Previously built automated trading infrastructure for a hedge fund, including large-scale strategy backtesting, analytics, automated strategy selection, dashboards, and cloud operations. Current work is focused on QuantBox: Rust/Python infrastructure for systematic trading research, market ingestion, simulation, prediction-market analytics, and runtime systems.
+Previously built automated trading infrastructure for a hedge fund, including large-scale strategy backtesting, analytics, automated strategy selection, dashboards, and cloud operations. Current work is focused on QuantBox: Rust/Python infrastructure for systematic trading research, prediction-market analytics, market ingestion, simulation, and runtime systems.
 
 ## Trading Platform Work
 
@@ -35,30 +35,62 @@ Key capabilities:
 
 Rust-first research, simulation, runtime, and evidence platform for systematic trading.
 
-Focus areas:
+**Focus areas:**
 
-- strategy simulation and evaluation
-- reproducible research pipelines
-- runtime architecture
-- evidence capture
-- risk and drawdown logic
-- market-data infrastructure
+- Strategy simulation and evaluation
+- Reproducible research pipelines
+- Runtime architecture
+- Evidence capture
+- Risk and drawdown logic
+- Market-data infrastructure
 
-### [Vector Backtester](https://github.com/bijmaxx/vector-backtester)
+### [Polymarket Weather Research](https://github.com/bijmaxx/polymarket-weather-research)
 
-ClickHouse-backed cryptocurrency strategy backtester using SQL-native vectorized execution.
+Paper-trading research engine for prediction markets with market ingestion, signal evaluation, and experiment tracking.
 
-### [Prediction Market Wallet Intelligence CLI](https://github.com/bijmaxx/polymarket-trader-intelligence)
+**Focus areas:**
+
+- Market ingestion
+- Signal evaluation
+- Paper-trading research
+- Experiment tracking
+- Replayable analysis
+
+### [Polymarket Trader Intelligence](https://github.com/bijmaxx/polymarket-trader-intelligence)
 
 CLI toolkit for wallet alerts, replayable market analysis, SQLite storage, and trader profile intelligence.
+
+**Focus areas:**
+
+- Wallet intelligence
+- Trader behavior analysis
+- Replayable event storage
+- CLI tooling
+- SQLite-backed local research workflows
 
 ### [Matching System](https://github.com/bijmaxx/matching-system)
 
 Explainable event-matching system for cross-platform prediction-market analysis.
 
-### [Prediction Market Research Engine](https://github.com/bijmaxx/polymarket-weather-research)
+**Focus areas:**
 
-Paper-trading research engine for prediction markets, including ingestion, signal evaluation, and experiment tracking.
+- Event matching
+- Cross-platform market analysis
+- Explainable matching logic
+- Data normalization
+- Research tooling
+
+### [Vector Backtester](https://github.com/bijmaxx/vector-backtester)
+
+ClickHouse-backed cryptocurrency strategy backtester using SQL-native vectorized execution.
+
+**Focus areas:**
+
+- Vectorized backtesting
+- ClickHouse analytics
+- SQL-native strategy research
+- Market-data storage
+- High-volume strategy evaluation
 
 ### [Prediction Market Oracle Timing Research](https://github.com/bijmaxx/polymarket-oracle-bot)
 
@@ -83,4 +115,8 @@ Prototype for studying oracle-lag timing, market behavior, and automated executi
 **Backend:** Rails, FastAPI, APIs, WebSockets, background jobs, CLI systems  
 **Data:** PostgreSQL, ClickHouse, SQLite, ETL, event logs, market-data pipelines  
 **Infrastructure:** Kubernetes, Docker, AWS, Linux, Ansible, CI/CD, Grafana  
-**Domains:** trading systems, research infrastructure, automation, analytics
+**Domains:** Trading systems, prediction markets, research infrastructure, automation, analytics
+
+## Contact
+
+- Email: bijan.pourriahi@gmail.com
