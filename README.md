@@ -1,13 +1,15 @@
 # Bijan Pourriahi
 
-**Senior Backend / Platform Engineer**  
-Rust · Python · Rails · Kubernetes · Trading Infrastructure · Data Systems · Automation
+**Senior Full-Stack / Platform Engineer**  
+Frontend · Backend · Data Systems · DevOps · Kubernetes · Automation · Rust · Python · Rails · TypeScript
 
-I build backend and systems software for data-heavy, automation-heavy domains: trading infrastructure, market-data pipelines, simulation engines, research platforms, internal tools, and real-time execution systems.
+I build complete software systems end-to-end: frontend applications, backend services, APIs, databases, infrastructure, deployment workflows, monitoring, automation, and data pipelines.
 
-My work focuses on systems that need to be reproducible, inspectable, replayable, and operationally useful: ingestion pipelines, strategy runtimes, backtesting engines, event matching, execution tooling, evidence capture, and infrastructure for turning raw data into decisions.
+My strongest work is in complex, data-heavy products where the system needs to be reliable, inspectable, performant, and operationally useful. I work across product interfaces, backend architecture, data modeling, infrastructure, DevOps, system administration, performance optimization, monitoring, and internal tooling.
 
-Previously built automated trading infrastructure for a hedge fund, including large-scale strategy backtesting, analytics, automated strategy selection, dashboards, and cloud operations. Current work is focused on QuantBox: Rust/Python infrastructure for systematic trading research, prediction-market analytics, market ingestion, simulation, and runtime systems.
+I have built SaaS products, market research platforms, trading infrastructure, research systems, dashboards, data pipelines, automation tools, browser extensions, CLIs, and backend platforms.
+
+Previously built automated trading infrastructure for a hedge fund, including large-scale strategy backtesting, analytics, automated strategy selection, dashboards, and cloud operations. Current work includes QuantBox: a Rust/Python systems platform for research infrastructure, simulation, market-data ingestion, runtime systems, and automation.
 
 ## Trading Platform Work
 
@@ -35,87 +37,93 @@ Key capabilities:
 
 Rust-first research, simulation, runtime, and evidence platform for systematic trading.
 
-**Focus areas:**
+**What it demonstrates:**
 
-- Strategy simulation and evaluation
-- Reproducible research pipelines
-- Runtime architecture
-- Evidence capture
+- Systems architecture
+- Rust/Python engineering
+- Simulation and evaluation
+- Data ingestion and replay
+- Runtime infrastructure
 - Risk and drawdown logic
-- Market-data infrastructure
-
-### [Polymarket Weather Research](https://github.com/bijmaxx/polymarket-weather-research)
-
-Paper-trading research engine for prediction markets with market ingestion, signal evaluation, and experiment tracking.
-
-**Focus areas:**
-
-- Market ingestion
-- Signal evaluation
-- Paper-trading research
-- Experiment tracking
-- Replayable analysis
-
-### [Polymarket Trader Intelligence](https://github.com/bijmaxx/polymarket-trader-intelligence)
-
-CLI toolkit for wallet alerts, replayable market analysis, SQLite storage, and trader profile intelligence.
-
-**Focus areas:**
-
-- Wallet intelligence
-- Trader behavior analysis
-- Replayable event storage
-- CLI tooling
-- SQLite-backed local research workflows
-
-### [Matching System](https://github.com/bijmaxx/matching-system)
-
-Explainable event-matching system for cross-platform prediction-market analysis.
-
-**Focus areas:**
-
-- Event matching
-- Cross-platform market analysis
-- Explainable matching logic
-- Data normalization
-- Research tooling
+- Evidence capture
+- Operational tooling
 
 ### [Vector Backtester](https://github.com/bijmaxx/vector-backtester)
 
 ClickHouse-backed cryptocurrency strategy backtester using SQL-native vectorized execution.
 
-**Focus areas:**
+**What it demonstrates:**
 
-- Vectorized backtesting
+- Data modeling
 - ClickHouse analytics
-- SQL-native strategy research
-- Market-data storage
-- High-volume strategy evaluation
+- Query optimization
+- High-volume backtesting
+- SQL-native research workflows
+- Performance-oriented system design
 
-### [Prediction Market Oracle Timing Research](https://github.com/bijmaxx/polymarket-oracle-bot)
+### [Polymarket Trader Intelligence](https://github.com/bijmaxx/polymarket-trader-intelligence)
 
-Prototype for studying oracle-lag timing, market behavior, and automated execution workflows.
+CLI toolkit for wallet alerts, replayable market analysis, SQLite storage, and trader profile intelligence.
+
+**What it demonstrates:**
+
+- CLI product design
+- Data extraction and normalization
+- SQLite-backed local workflows
+- Replayable event storage
+- User-facing automation tools
+
+### [Matching System](https://github.com/bijmaxx/matching-system)
+
+Explainable event-matching system for cross-platform prediction-market analysis.
+
+**What it demonstrates:**
+
+- Event matching
+- Data normalization
+- Explainable algorithms
+- Cross-platform data modeling
+- Research tooling
+
+### Frontend / Product Work
+
+Built complete product interfaces, dashboards, admin tools, browser extensions, and customer-facing workflows across SaaS, analytics, automation, and internal operations products.
+
+**What it demonstrates:**
+
+- Full-stack product development
+- TypeScript/React interfaces
+- Dashboards and admin tools
+- Browser extensions
+- UX for complex data workflows
+- API integration
 
 ## Core Engineering Areas
 
+- Full-stack product development
+- Frontend application development
 - Backend architecture
-- Rust/Python systems engineering
-- Trading infrastructure
-- Market-data ingestion and normalization
-- Simulation and backtesting engines
-- Data pipelines and replayable workflows
-- PostgreSQL, ClickHouse, SQLite
+- API design
+- Data modeling and database design
+- Query optimization and performance tuning
+- DevOps and system administration
 - Kubernetes, Docker, Linux, AWS
-- CLI tools and internal platforms
+- CI/CD and deployment automation
+- Monitoring, observability, Grafana dashboards
+- SaaS products and internal platforms
+- Rails/PostgreSQL application development
+- Rust/Python systems engineering
+- Market-data and research infrastructure
 - Automation and AI-assisted workflows
 
 ## Stack
 
 **Languages:** Rust, Python, Ruby, Go, TypeScript, SQL  
-**Backend:** Rails, FastAPI, APIs, WebSockets, background jobs, CLI systems  
-**Data:** PostgreSQL, ClickHouse, SQLite, ETL, event logs, market-data pipelines  
-**Infrastructure:** Kubernetes, Docker, AWS, Linux, Ansible, CI/CD, Grafana  
-**Domains:** Trading systems, prediction markets, research infrastructure, automation, analytics
+**Frontend:** React, TypeScript, HTML, CSS, dashboards, browser extensions, admin tools  
+**Backend:** Ruby on Rails, FastAPI, APIs, WebSockets, background jobs, service architecture, CLI systems  
+**Data:** PostgreSQL, ClickHouse, SQLite, ETL, data modeling, event logs, analytics pipelines  
+**Infrastructure:** Kubernetes, Docker, AWS, Linux, Ansible, CI/CD, sysadmin, Grafana, monitoring  
+**Domains:** SaaS, internal tools, automation, analytics, research infrastructure, trading systems, data-heavy products
 
 ## Contact
 
