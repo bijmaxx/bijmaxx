@@ -1,15 +1,20 @@
 # Bijan Pourriahi
 
 **Senior Full-Stack / Platform Engineer**  
-Frontend · Backend · Data Systems · DevOps · Kubernetes · Automation · Rust · Python · Rails · TypeScript
+Data Pipelines · Automation Infrastructure · Browser Automation · DevOps · Rust · Python · Rails · TypeScript
 
-I build complete software systems end-to-end: frontend applications, backend services, APIs, databases, infrastructure, deployment workflows, monitoring, automation, and data pipelines.
+I build complete software systems end-to-end: product interfaces, backend services, APIs, databases, data pipelines, orchestration systems, deployment workflows, monitoring, automation, and internal tooling.
 
-My strongest work is in complex, data-heavy products where the system needs to be reliable, inspectable, performant, and operationally useful. I work across product interfaces, backend architecture, data modeling, infrastructure, DevOps, system administration, performance optimization, monitoring, and internal tooling.
+My strongest work is in complex, data-heavy products where reliability, observability, performance, and operational usefulness matter. I’m comfortable working across frontend, backend architecture, data modeling, Linux infrastructure, DevOps, production debugging, performance optimization, and systems automation.
 
-I have built SaaS products, market research platforms, trading infrastructure, research systems, dashboards, data pipelines, automation tools, browser extensions, CLIs, and backend platforms.
+I have built SaaS products, market research platforms, trading infrastructure, research systems, dashboards, browser automation platforms, browser extensions, CLIs, and backend services.
 
-Previously built automated trading infrastructure for a hedge fund, including large-scale strategy backtesting, analytics, automated strategy selection, dashboards, and cloud operations. Current work includes QuantBox: a Rust/Python systems platform for research infrastructure, simulation, market-data ingestion, runtime systems, and automation.
+Relevant work includes high-volume browser automation infrastructure, proxy/session management, account/session isolation, provider access routing, Dockerized workers, job orchestration, retries, logging, failure recovery, monitoring, and operational reliability.
+
+Previously built automated trading infrastructure for a hedge fund, including large-scale strategy backtesting, analytics, automated strategy selection, dashboards, and cloud operations.
+
+Current work includes QuantBox, a Rust/Python systems platform for research infrastructure, simulation, market-data ingestion, runtime systems, and automation.
+
 
 ## Trading Platform Work
 
